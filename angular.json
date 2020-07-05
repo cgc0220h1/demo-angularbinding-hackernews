@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "demo-angularbinding-hackernews"
+    }
+  },
+  "defaultProject": "demo-angularbinding-hackernews",
+  "cli": {
+    "analytics": false
+  }
 }
