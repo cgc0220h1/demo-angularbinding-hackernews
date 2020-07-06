@@ -1,13 +1,7 @@
 <h2>Today's article</h2>
+<app-navbar></app-navbar>
 <hr>
-<div *ngFor="let article of articles;">
-  <a href="{{article.url}}" target="_blank">{{article.title}}</a>
-  <br>
-  <app-likes></app-likes>
-</div>
+<app-article></app-article>
 <hr>
-<label for="article-title"></label>
-<textarea id="article-title" #title cols="70"></textarea>
-<label for="article-url"></label>
-<textarea id="article-url" #url cols="70"></textarea>
-<button type="button" (click)="addArticle(title.value, url.value)">Add Article</button>
+<app-footer></app-footer>
+<hr>

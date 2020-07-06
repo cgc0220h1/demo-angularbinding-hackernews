@@ -1,0 +1,7 @@
+<div *ngFor="let article of articles;">
+  <a href="{{article.url}}" target="_blank">{{article.title}}</a>
+  <br>
+  <app-likes></app-likes>
+</div>
+<hr>
+<app-article-add [articles]="articles"></app-article-add>
